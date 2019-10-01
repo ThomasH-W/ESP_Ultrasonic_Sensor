@@ -12,8 +12,8 @@
 #include <Arduino.h>
 #include <NewPing.h>
 
-#define TRIGGER_PIN D7    // D7   // Arduino pin tied to trigger pin on ping sensor.
-#define ECHO_PIN D6       // Arduino pin tied to echo pin on ping sensor.
+#define TRIGGER_PIN D3    // D7   // Arduino pin tied to trigger pin on ping sensor.
+#define ECHO_PIN D4       // Arduino pin tied to echo pin on ping sensor.
 #define MAX_DISTANCE 2000 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
